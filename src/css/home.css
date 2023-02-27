@@ -1,0 +1,285 @@
+
+
+#homeContainer{
+    position: absolute;
+    display: flex;
+    width: 100vw;
+    height: 210vh;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+#nightContainer{
+    position: absolute;
+    width: 100%;
+    min-height: 100vh;
+    height: 100vh;
+    max-height: 100vh;
+    top:0;
+}
+
+#stars{
+    position: absolute;
+    width: 100%;
+    height:80%;
+    background: url("../drawable/stars.png") center no-repeat ;
+    background-size: cover;
+    bottom: 120px;
+    background-position: 55% -5%;
+    z-index: 2;
+    filter: drop-shadow(-0.5rem -0.5rem 0.7rem rgba(0, 0, 0, 0.8)); 
+}
+
+#moon{
+    position: absolute;
+    width: 50%;
+    height:40%;
+    background: url("../drawable/moon.png") center no-repeat ;
+    background-size: contain;
+    top: 170px;
+    background-position: 55% -5%;
+    z-index: 2;
+    filter: drop-shadow(-0.5rem -0.5rem 0.7rem rgba(0, 0, 0, 0.8)); 
+}
+
+#ufo{
+    position: absolute;
+    width: 30%;
+    height:50%;
+    background: url("../drawable/ufo.png") center no-repeat ;
+    background-size: contain;
+    bottom: 50px;
+    right: 50px;
+    /* background-position: 55% -5%; */
+    z-index: 2;
+    filter: drop-shadow(-0.5rem -0.5rem 0.7rem rgba(0, 0, 0, 0.8)); 
+}
+
+#imageContainer{
+    position: absolute;
+    width: 100%;
+    min-height: 100vh;
+    height: 100vh;
+    max-height: 100vh;
+    bottom:0;
+}
+
+#mountains{
+    position: absolute;
+    width: 100%;
+    height:50%;
+    background: url("../drawable/mountain.png") center no-repeat ;
+    background-size: contain;
+    bottom: 0;
+    background-position: 55% -5%;
+    z-index: 2;
+    filter: drop-shadow(-0.5rem -0.5rem 0.7rem rgba(0, 0, 0, 0.8));
+}
+
+
+
+#school{
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    bottom: 0;
+    background: url("../drawable/school.png")center no-repeat;
+    background-size: cover;
+    background-position: 50% 70px;
+    filter: drop-shadow(0.6rem 0.6rem 0.1rem rgba(0, 0, 0, 0.8));
+    z-index: 2;
+}
+
+#sun{
+    position: absolute;
+    width: 30%;
+    height: 40%;
+    left: 20px;
+    background:url("../drawable/sun.png")center no-repeat;
+    background-size: contain;
+    filter: drop-shadow(0.6rem 0.6rem 0.1rem rgba(0, 0, 0, 0.8));
+
+}
+
+#cloud{
+    position: absolute;
+    width: 50%;
+    height: 40%;
+    top: 25px;
+    right: 20px;
+    background:url("../drawable/cloud.png")center no-repeat;
+    background-size: contain;
+    filter: drop-shadow(0.6rem 0.6rem 0.1rem rgba(0, 0, 0, 0.8));
+
+}
+
+#cement{
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    bottom: 0;
+    background-color: rgb(31, 115, 40);
+
+}
+
+#skyContainer{
+    position: relative;
+    width: 100vw;
+    height: 210vh;
+     background: #373B44; 
+     background: -webkit-linear-gradient(to bottom, #373B44, #4286f4); 
+     background: linear-gradient(to bottom, #373B44, #4286f4); 
+}
+
+#homeContentContainer{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#SchoolText{
+    position: absolute;
+    width: 70%;
+    height: fit-content;
+    bottom: 50%;
+    left: 15%;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2.8ch;
+    filter: drop-shadow(0.6rem 0.6rem 0.8rem rgba(0, 0, 0, 0.8));
+}
+
+@media only screen  and (orientation: landscape)
+{ 
+    #nightContainer{
+        position: absolute;
+        width: 100vw;
+        min-height: 100vh;
+        height: 100vh;
+        max-height: 100vh;
+        top:0;
+    }
+   
+    
+    #moon{
+        position: absolute;
+        width: 20%;
+        height:25%;
+        background: url("../drawable/moon.png") center no-repeat ;
+        background-size: contain;
+        top: 170px;
+        left: 150px;
+        /* background-position: 55% -5%; */
+        z-index: 2;
+        filter: drop-shadow(-0.5rem -0.5rem 0.7rem rgba(0, 0, 0, 0.8)); 
+    }
+    
+    #ufo{
+        position: absolute;
+        width: 30%;
+        height:20%;
+        background: url("../drawable/ufo.png") center no-repeat ;
+        background-size: contain;
+        bottom: 200px;
+        right: 150px;
+        /* background-position: 55% -5%; */
+        z-index: 2;
+        filter: drop-shadow(-0.5rem -0.5rem 0.7rem rgba(0, 0, 0, 0.8)); 
+    }
+    
+    #imageContainer{
+        position: absolute;
+        width: 100%;
+        min-height: 100vh;
+        height: 100vh;
+        max-height: 100vh;
+        bottom:0;
+    }
+    
+    #mountains{
+        position: absolute;
+        width: 100%;
+        height:70%;
+        background: url("../drawable/mountain.png") center no-repeat ;
+        background-size: cover;
+        bottom: 10%;
+        background-position: 55% -5%;
+        z-index: 2;
+        filter: drop-shadow(-0.5rem -0.5rem 0.7rem rgba(0, 0, 0, 0.8));
+    }
+    
+    
+    
+    #school{
+        position: absolute;
+        width: 70%;
+        height: 50%;
+        bottom: 0%;
+        right: 20%;
+        background: url("../drawable/school.png")center no-repeat;
+        background-size: cover;
+        /* background-position: 50%  bottom 15%; */
+        
+        filter: drop-shadow(0.6rem 0.6rem 0.1rem rgba(0, 0, 0, 0.8));
+        z-index: 2;
+    }
+    
+    #sun{
+        position: absolute;
+        width: 30%;
+        height: 30%;
+        top: 5%;
+        left: 2.5%;
+        background:url("../drawable/sun.png")center no-repeat;
+        background-size: contain;
+        filter: drop-shadow(0.6rem 0.6rem 0.1rem rgba(0, 0, 0, 0.8));
+    
+    }
+    
+    #cloud{
+        position: absolute;
+        width: 30%;
+        height: 20%;
+        top: 10%;
+        right: 10%;
+        background:url("../drawable/cloud.png")center no-repeat;
+        background-size: contain;
+        filter: drop-shadow(0.6rem 0.6rem 0.1rem rgba(0, 0, 0, 0.8));
+    
+    }
+    
+    #cement{
+        position: absolute;
+        width: 100%;
+        height: 10%;
+        bottom: 0;
+        background-color: rgb(31, 115, 40);
+    
+    }
+
+    #SchoolText{
+        position: absolute;
+        width: 70%;
+        height: fit-content;
+        bottom: 50%;
+        left: 12.5%;
+        color: white;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 5.5ch;
+        filter: drop-shadow(0.6rem 0.6rem 0.8rem rgba(0, 0, 0, 0.8));
+    }
+    
+    #skyContainer{
+        position: relative;
+        width: 100vw;
+        height: 210vh;
+         background: #373B44; 
+         background: -webkit-linear-gradient(to bottom, #373B44, #4286f4); 
+         background: linear-gradient(to bottom, #373B44, #4286f4); 
+    }
+    
+}

@@ -1,0 +1,57 @@
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+
+.mobileGrid{
+    display: none;
+}
+
+#logoDiv{
+background:url("../drawable/s10logo.png") center no-repeat;
+background-size: 99%;
+}
+
+/* .mobileSubGrid{
+ display: none;       
+} */
+
+@media only screen and (orientation: portrait) {
+    .desktopGrid{
+        display: none;
+    }
+
+    #logoDiv{
+        display: none;
+    }
+    .mobileNavButton{
+        border: none;
+        background: url("../drawable/s10logo.png") center no-repeat;
+        background-size: 57%;
+        height: 5.5vh;
+        width: 30vw;
+    }
+
+    #mobileDrawerLogo{
+        width: 100%;
+        height: 10vh;
+        border-style:solid none solid none ;
+        border-color: white;
+        border-width: .1px;
+        background: url("../drawable/s10logo.png") center no-repeat;
+        background-size: 25%;
+    }
+
+    .mobileGrid{
+        display: flex;
+    }
+
+   
+   
+}

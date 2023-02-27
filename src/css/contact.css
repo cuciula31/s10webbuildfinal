@@ -1,0 +1,158 @@
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+
+
+#contactContainer{
+    position: absolute;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+
+    animation: fadeInAnimation ease-in 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#contentContainer{
+    position: relative;
+    display: flex;
+    flex-flow: row;
+    width: 100vw;
+    height: 100vh;
+
+   
+}
+
+#mapContainer{
+    position: relative;
+    width: 50vw;
+    height: 99.59vh;
+    background-color: black;
+
+    animation: fadeInAnimation ease-in 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+
+#contactLogo{
+    width: 95%;
+    height: 20vh;
+    background: url(../drawable/s10logo.png) center no-repeat;
+    background-size: 25%;
+
+}
+
+#contactDetails{
+    position: relative;
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+
+    animation: fadeInAnimation ease-in 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#mapFrame{
+    width: 50vw;
+    height: 100vh;
+}
+
+#contactAddressContainer{
+    position: relative;
+    display: flex;
+    flex-flow: row;
+    width: 95%;
+    height: 6.2ch;
+}
+
+#addressIcon{
+background: url(../drawable/location.png) center no-repeat;
+background-size: 5ch;
+}
+
+#telIcon{
+    background: url(../drawable/telephone.png) center no-repeat;
+    background-size: 5ch;
+}
+
+#emailIcon{
+    background: url(../drawable/email.png) center no-repeat;
+    background-size: 5ch;
+}
+
+.contactIcon{
+width: 15ch;
+height: 100%;
+}
+
+.contactText{
+width: 60ch;
+height: 100%;
+display: flex;
+color: white;
+font-size: 5vh;
+padding-left: 2ch;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+justify-content: left;
+align-items: center;
+}
+
+@media only screen and (orientation: portrait) {
+    #mapContainer{
+        position: relative;
+        width: 100vw;
+        height: 50vh;
+        background-color: black;
+    }
+
+    #contactLogo{
+    background-size: 40%;
+    }
+
+    #contactDetails{
+        position: relative;
+        width: 100vw;
+        height: 50vh;
+        background-color: black;
+    }
+
+    #contentContainer{
+        position: relative;
+        display: flex;
+        flex-flow: column;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .contactText{
+        font-size: 3vh;
+        }
+}
+
+@media  screen and (max-width:1030px) {
+    .contactText{
+        font-size: 3vh;
+        }
+}
+
+@media  screen and (max-width:900px) {
+    .contactText{
+        font-size: 3vh;
+        }
+}
